@@ -10,7 +10,6 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-- [Author](#author)
 
 ## Overview
 
@@ -24,8 +23,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://github.com/AaronCurrie/Challenge-CSS-Order-Summary
+- Live Site URL: https://aaroncurrie.github.io/Challenge-CSS-Order-Summary/
 
 ## My process
 
@@ -37,11 +36,7 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I used this challenge to practice my CSS layout and design skills. The main features I choose to use were CSS flexbox as the project was relatively small and didnt requrie CCS grid. I tried to keep the project as responsive as possible by using 10% and rem's as well as a media query at the pages main breaking point. 
 
-### Me
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
 
