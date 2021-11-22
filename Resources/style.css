@@ -1,44 +1,73 @@
+
+
+:root{
+    --Pale-blue: hsl(225, 100%, 94%);
+    --Bright-blue: hsl(245, 75%, 52%);
+    --Very-pale-blue: hsl(225, 100%, 98%);
+    --Desaturated-blue: hsl(224, 23%, 55%);
+    --Dark-blue: hsl(223, 47%, 23%); 
+    font-family: 'Red Hat Display';
+ 
+}
+
 body {
     background-image: url("./images/pattern-background-desktop.svg");
     background-repeat: no-repeat;
     background-position: top;
     text-align: center;
     font-size: 16px;
+    background-color: var(--Pale-blue);
 }
 
 h1 {
-    font-size: 1.5rem;
-    margin: 15%;
+    font-size: 1.6rem;
+    margin-top: 15%;
+    color: var(--Dark-blue);
+    font-weight: 900;
 }
 
 h2 {
-    font-size: 1.1rem;
-    
+    font-size: 1rem;
+    color: var(--Dark-blue);
+    font-weight: 900;
 }
 
 h3 {
-    font-size: 1.1rem;
+    font-size: 1rem;
     margin: 15%;
+    font-weight: 900;
+}
+
+p {
+    color: var(--Desaturated-blue);
+    margin-bottom: 10%;
+    font-weight: 500;
+}
+
+a {
+    font-weight: 900;
+    font-size: 0.9rem;
+    text-decoration: none;
 }
 
 .main {
-    width: 30%;
-    height: auto;
-    margin: 50px auto;
-    border: 1px solid red;
-    border-radius: 5%;
+    width: 420px;
+    margin: 100px auto;
+    border-radius: 20px;
     background-color: white;
     overflow: hidden;
+    box-shadow: 0px 10px 50px var(--Desaturated-blue);
 }
 
 
 
 .content {
-    padding: 0px 10%;
+    padding: 0px 12%;
 }
 
 .header img{
     width: 100%;
+    height: auto;
     overflow: hidden;
 }
 
@@ -46,7 +75,7 @@ h3 {
     display: flex;
     justify-content:space-around;
     align-items: center;
-    background-color:cadetblue;
+    background-color: var(--Very-pale-blue);
     border-radius: 8px;
 }
 
@@ -56,10 +85,56 @@ h3 {
 
 .items a {
     margin: 20px;
+    color: var(--Bright-blue);
+    text-decoration: underline;
+}
+
+.items a:hover {
+    text-decoration: none;
+    opacity: 0.7;
 }
 
 .price {
     text-align: left;
     flex-grow: 2;
     line-height: 5px;
+}
+
+.payment {
+    background-color: var(--Bright-blue);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px 5px var(--Pale-blue);
+}
+
+.payment h3{
+    color: var(--Very-pale-blue);
+}
+
+.payment:hover {
+    opacity: 0.7;
+}
+
+.cancel h3 {
+    color: var(--Desaturated-blue);
+}
+
+.cancel h3:hover {
+    color: black;
+    font-weight: 900;
+}
+
+a h3{
+    font-weight: 700;
+}
+
+
+@media only screen and (max-width: 450px) {
+    .main{
+        width: 375px;
+    }
 }
