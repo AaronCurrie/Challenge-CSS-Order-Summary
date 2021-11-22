@@ -1,3 +1,65 @@
-html {
-    background: black;
+body {
+    background-image: url("./images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: top;
+    text-align: center;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin: 15%;
+}
+
+h2 {
+    font-size: 1.1rem;
+    
+}
+
+h3 {
+    font-size: 1.1rem;
+    margin: 15%;
+}
+
+.main {
+    width: 30%;
+    height: auto;
+    margin: 50px auto;
+    border: 1px solid red;
+    border-radius: 5%;
+    background-color: white;
+    overflow: hidden;
+}
+
+
+
+.content {
+    padding: 0px 10%;
+}
+
+.header img{
+    width: 100%;
+    overflow: hidden;
+}
+
+.items{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color:cadetblue;
+    border-radius: 8px;
+}
+
+.items img {
+    margin: 20px;
+}
+
+.items a {
+    margin: 20px;
+}
+
+.price {
+    text-align: left;
+    flex-grow: 2;
+    line-height: 5px;
 }
